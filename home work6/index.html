@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <input type="text" id="idNum" placeholder="enter your ID">
+    <button onclick="corretId()">check ID</button><br>
+    <input type="text" id="AnumToCheck" placeholder="enter a number">
+    <button onclick="primeNumber()">primeNumber?</button><br>
+    <input type="text" id="stringToBeSpaceCap">
+    <button onclick="addSpaceBeforeCaps()">space cap letter</button><br>
+    <input id="longStr" type="text" placeholder="הזן את המחרוזת הארוכה"><br>
+    <input id="shortStr" type="text" placeholder="הזן את המחרוזת הקצרה"><br>
+    <button onclick="handleCountOccurrences()">ספור</button><br>
+    <table>
+        <input readonly id="calculatorView" type="text">
+        <tr>
+            <td>
+                <button onclick="addCondition(this)">1</button>
+            </td>
+            <td>
+                <button onclick="addCondition(this)">2</button>
+            </td>
+            <td>
+                <button onclick="addCondition(this)">3</button>
+            </td>
+            <td>
+                <button onclick="addCondition(this)">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="addCondition(this)">4</button>
+            </td>
+            <td>
+                <button onclick="addCondition(this)">5</button>
+            </td>
+            <td>
+                <button onclick="addCondition(this)">6</button>
+            </td>
+            <td>
+                <button onclick="addCondition(this)">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="addCondition(this)">7</button>
+            </td>
+            <td>
+                <button onclick="addCondition(this)">8</button>
+            </td>
+            <td>
+                <button onclick="addCondition(this)">9</button>
+            </td>
+            <td>
+                <button onclick="addCondition(this)">*</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="addCondition(this)">C</button>
+            </td>
+            <td>
+                <button onclick="addCondition(this)">0</button>
+            </td>
+            <td>
+                <button onclick="addCondition(this)">=</button>
+            </td>
+            <td>
+                <button onclick="addCondition(this)">/</button>
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>
